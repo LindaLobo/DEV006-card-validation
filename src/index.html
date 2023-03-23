@@ -1,14 +1,146 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/b27f091b71.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
+</head>
+
+<body>
+  <header>
+    <div class="titulo">
+      <h1>BANCO CANINO </h1>
+    </div>
+    <div>
+      <i class="fa-solid fa-shield-dog fa-3x"></i>
+    </div>
+
+  </header>
+  <main>
+    <h2>Dona a nuestro equipo ASN</h2>
+    <h4>(ANIMALES SIN NOMBRE)</h4>
+
+    <div>
+      <p id="validador"> 
+        <i class="fa-regular fa-address-card fa-2x"></i>
+      </p>
+    </div>
+
+    <div class="completo">
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_
+    IPPM14IU_ME-jjBP66V3-VKPx_4Gx9hbdwYMqgPDTXyCwQ8M6iaQGfdAFJY9JaBBYmI&usqp=CAU" alt="imagen de perro triste">
+
+      </div>
+
+
+
+      <div class="container">
+
+        <div class="card-container">
+
+          <div class="front">
+            <div class="imagenes">
+              <i class="fa-solid fa-microchip fa-4x"></i>
+              <i class="fa-brands fa-cc-visa fa-4x"></i>
+            </div>
+            <div class="card-number-box">0000 0000 0000 0000</div>
+            <div class="flexbox">
+              <div class="box">
+                <span>Nombre</span>
+                <div class="card-holder-name">full name</div>
+              </div>
+              <div class="box">
+                <span>Vencimiento</span>
+                <div>
+                  <span class="expiration-mm">mes</span>
+                  <span class="expiration-yy">año</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="back">
+            <div class="stripe"></div>
+            <div class="box">
+              <span>CVV</span>
+              <div class="cvv-box"></div>
+              <i class="fa-brands fa-cc-visa fa-3x"></i>
+            </div>
+          </div>
+        </div>
+
+        <form>
+          <div class="inputBox">
+            <span>Número de Tarjeta</span>
+            <input id="numberTarjeta" type="number" class="card-number-input"
+              placeholder="Número de la tarjeta" minlength="1" maxlength="16" />
+          </div>
+          <div class="inputBox">
+            <span>Nombre de la Tarjeta</span>
+            <input type="text" class="card-holder-input" placeholder="Nombre de la tarjeta" />
+          </div>
+          <div class="flexbox">
+            <div class="inputBox">
+              <span>Vencimiento mes</span>
+              <select class="input-mes">
+                <option value="mes" selected disabled>mes</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+            </div>
+            <div class="inputBox">
+              <span>Vencimiento año</span>
+              <select class="input-year">
+                <option value="year" selected disabled>Año</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+              </select>
+            </div>
+            <div class="inputBox">
+              <span>CVV</span>
+              <input type="number" maxlength="3" class="cvv-input">
+            </div>
+          </div>
+          <div>
+            <button id="nuevo_boton" class="submit-btn"> AGREGAR </button>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+
+  </main>
+
+
+  <footer>
+    DERECHOS RESERVADOS
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
