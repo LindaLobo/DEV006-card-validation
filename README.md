@@ -1,11 +1,11 @@
 # CREDIT CARD VALIDATION
 
-_Es una página creada por el Banco Canino 🐶 para Donaciones a los refugios de la ASN (Animales Sin Nombre), que contiene una Validación de Tarjetas donde el usuario debera colocar los datos de su tarjeta si desea donar 💰💳.
+Es una página creada por el Banco Canino 🐶 para Donaciones a los refugios de la ASN (Animales Sin Nombre), que contiene una Validación de Tarjetas donde el usuario debera colocar los datos de su tarjeta si desea donar 💰💳.
 
 ## Comenzando 🚀
 
-_Realizar distintas lecturas y apoyandonos en el GitBook
-_Investigar en otras herramientas como youtube, chrome.
+*Realizar distintas lecturas y apoyandonos en el GitBook
+*Investigar en otras herramientas como youtube, chrome.
 
 ### Pre-requisitos 📋
 
@@ -21,10 +21,9 @@ _Investigar en otras herramientas como youtube, chrome.
 
 ## Edición
 
-_Página diseñada para la comodida del usuario y validación de su tarjeta, sin errores.
+Página diseñada para la comodida del usuario y validación de su tarjeta, sin errores.
 
 ![image](https://user-images.githubusercontent.com/104039974/227294626-5b401d16-92e2-4a06-bd33-08dd4b899ea5.png)
-
 
 ## Autores ✒️❤️
 
