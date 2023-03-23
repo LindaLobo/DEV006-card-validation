@@ -4,8 +4,8 @@ Es una página creada por el Banco Canino 🐶 para Donaciones a los refugios de
 
 ## Comenzando 🚀
 
-*Realizar distintas lecturas y apoyandonos en el GitBook
-*Investigar en otras herramientas como youtube, chrome.
+* Realizar distintas lecturas y apoyandonos en el GitBook.
+* Investigar en otras herramientas como youtube, chrome.
 
 ### Pre-requisitos 📋
 
@@ -33,6 +33,4 @@ Página diseñada para la comodida del usuario y validación de su tarjeta, sin 
 ## Expresiones de Gratitud 🎁
 
 * Hecho con amor 😊❤️😊
-* Muchas gracias a todos 🤓.
-
-
+* Muchas gracias a todos 🤓
