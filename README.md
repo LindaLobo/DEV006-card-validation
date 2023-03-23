@@ -28,8 +28,8 @@ _Página diseñada para la comodida del usuario y validación de su tarjeta, sin
 
 ## Autores ✒️❤️
 
-* **Laboratoria* -
-* **Linda Aguilar** -
+* **Laboratoria**
+* **Linda Aguilar**
 
 ## Expresiones de Gratitud 🎁
 
